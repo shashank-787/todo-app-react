@@ -8,6 +8,6 @@ const colors = {
 
 export function Button({onClick, name, color}){
     return (
-        <button onClick={onClick} className={`${colors[color]} py-1 px-2 cursor-pointer`} >{name}</button>
+        <button onClick={onClick} className={`${colors[color]} px-1 cursor-pointer`} >{name}</button>
     )
 }
